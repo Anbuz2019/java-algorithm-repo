@@ -1,18 +1,18 @@
 package utils.linklist;
 
 public class listNode {
-    int val;
-    listNode next;
+    public int val;
+    public listNode next;
 
-    listNode(){
+    public listNode(){
         this(0, null);
     }
 
-    listNode(int val){
+    public listNode(int val){
         this(val, null);
     }
 
-    listNode(int val, listNode node){
+    public listNode(int val, listNode node){
         this.val = val;
         this.next = node;
     };
